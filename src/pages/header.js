@@ -121,7 +121,7 @@ function Header() {
             </li>
             <li className="get-started">
               <Link
-                to="/consumerNextpage"
+                to="/consumerpages"
                 onClick={() => setSidebarOpen(false)}
               >
                 Get Started

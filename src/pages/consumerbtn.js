@@ -213,6 +213,9 @@ function ConsumerBTN() {
                   minLength={3}
                 />
               </div>
+              <button onClick={changepage} className="next-btn" type="submit">
+                Next Step
+              </button>
               {/* Show error if fields are empty */}
               {error && (
                 <div
@@ -222,9 +225,7 @@ function ConsumerBTN() {
                   {error}
                 </div>
               )}
-              <button onClick={changepage} className="next-btn" type="submit">
-                Next Step
-              </button>
+              
               <p>
                 Already have an account? <Link>Sign In</Link>
               </p>
